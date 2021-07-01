@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React_SuperheroAPIPWS/static/css/main.9a8682d8.chunk.css",
+    "main.css": "/React_SuperheroAPIPWS/static/css/main.ec809760.chunk.css",
     "main.js": "/React_SuperheroAPIPWS/static/js/main.f4087275.chunk.js",
     "main.js.map": "/React_SuperheroAPIPWS/static/js/main.f4087275.chunk.js.map",
     "runtime-main.js": "/React_SuperheroAPIPWS/static/js/runtime-main.8cb357bb.js",
@@ -12,13 +12,13 @@
     "index.html": "/React_SuperheroAPIPWS/index.html",
     "service-worker.js": "/React_SuperheroAPIPWS/service-worker.js",
     "service-worker.js.map": "/React_SuperheroAPIPWS/service-worker.js.map",
-    "static/css/main.9a8682d8.chunk.css.map": "/React_SuperheroAPIPWS/static/css/main.9a8682d8.chunk.css.map",
+    "static/css/main.ec809760.chunk.css.map": "/React_SuperheroAPIPWS/static/css/main.ec809760.chunk.css.map",
     "static/js/2.a5ce2d64.chunk.js.LICENSE.txt": "/React_SuperheroAPIPWS/static/js/2.a5ce2d64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8cb357bb.js",
     "static/js/2.a5ce2d64.chunk.js",
-    "static/css/main.9a8682d8.chunk.css",
+    "static/css/main.ec809760.chunk.css",
     "static/js/main.f4087275.chunk.js"
   ]
 }

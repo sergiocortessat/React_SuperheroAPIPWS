@@ -36,8 +36,8 @@
 }
 
 .MuiMenu-paper > ul {
-    color: white !important;
-  }
+  color: white !important;
+}
 
 @media only screen and (max-width: 1024px) {
   .textField {

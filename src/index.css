@@ -6,7 +6,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-animation: backgroundscroll 30s linear 1;
+  -webkit-animation: backgroundScroll 30s linear 1;
   -webkit-animation-fill-mode: both;
   animation: backgroundScroll linear 30s 1;
   animation-fill-mode: both;

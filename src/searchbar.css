@@ -1,56 +1,59 @@
 .searchContainer {
-    display: flex;
-    margin-bottom: 4%;
-    width: 100%;
-    justify-content: center;
-    margin-top: 5%;
+  display: flex;
+  margin-bottom: 4%;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.searchContainer > div > label {
+    color: white !important;
 }
 
 .textField {
-    width: 30%;
-    font-weight: 500;
-    margin: 0 2% !important;
-    background-color: white;
+  width: 30%;
+  font-weight: 500;
+  margin: 0 2% !important;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .select {
-    width: 205px;
-    background-color: white;
+  width: 205px;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
-
 @media only screen and (max-width: 1024px) {
-    .textField {
-        width: 50%;
-    }
+  .textField {
+    width: 50%;
+  }
 
-    .selectContainer {
-        width: 50%;
-    }
-    
-    .select {
-        width: 50%;
-    }
+  .selectContainer {
+    width: 50%;
+  }
+
+  .select {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .searchContainer {
-        flex-direction: column;
-        padding: 0 10%;
-        align-items: center;
-    }
+  .searchContainer {
+    flex-direction: column;
+    padding: 0 10%;
+    align-items: center;
+  }
 
-    .textField {
-        width: 100%;
-        margin: 0 !important;
-    }
+  .textField {
+    width: 100%;
+    margin: 0 !important;
+  }
 
-    .selectContainer {
-        margin: 20px 0;
-        width: 100%;
-    }
-    
-    .select {
-        width: 100%;
-    }
+  .selectContainer {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .select {
+    width: 100%;
+  }
 }

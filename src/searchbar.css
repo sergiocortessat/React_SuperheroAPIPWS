@@ -10,17 +10,34 @@
   color: white !important;
 }
 
+.MuiInputBase-input {
+  color: white !important;
+}
+
 .textField {
   width: 30%;
   font-weight: 500;
   margin: 0 2% !important;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white !important;
 }
 
 .select {
   width: 205px;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(0, 0, 0, 0.75);
 }
+
+.MuiInputLabel-filled {
+  color: white !important;
+}
+
+.MuiMenu-paper {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.MuiMenu-paper > ul {
+    color: white !important;
+  }
 
 @media only screen and (max-width: 1024px) {
   .textField {

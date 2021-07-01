@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&display=swap");
+
 .searchContainer {
   display: flex;
   margin-bottom: 4%;
@@ -8,10 +10,12 @@
 
 .searchContainer > div > label {
   color: white !important;
+  font-family: "Marvel", sans-serif !important;
 }
 
 .MuiInputBase-input {
   color: white !important;
+  font-family: "Marvel", sans-serif !important;
 }
 
 .textField {
@@ -29,6 +33,7 @@
 
 .MuiInputLabel-filled {
   color: white !important;
+  font-family: "Marvel", sans-serif !important;
 }
 
 .MuiMenu-paper {
@@ -37,6 +42,10 @@
 
 .MuiMenu-paper > ul {
   color: white !important;
+}
+
+.MuiMenu-paper > ul > li {
+  font-family: "Marvel", sans-serif !important;
 }
 
 @media only screen and (max-width: 1024px) {

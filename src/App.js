@@ -1,13 +1,14 @@
 /* eslint-disable max-len */
 /* eslint-disable consistent-return */
 import { useEffect, useState } from 'react';
-// import Form from './Components/Form';
-import { Select, MenuItem } from '@material-ui/core';
+import {
+  Select, MenuItem, TextField, FormControl, InputLabel,
+} from '@material-ui/core';
 import SuperCard from './Components/SuperCard';
 import fetchHeroes from './ApiFetch';
-// import navBar from './Components/NavBar';
 import CircularUnderLoad from './Components/Loading';
 import './Components/supercard.css';
+import './searchbar.css';
 
 function App() {
   const [data, setData] = useState([]);
@@ -30,19 +31,34 @@ function App() {
   }
   return (
     <div className="App">
-      <form action="herosearch" className="form">
-        <input onChange={(event) => setFilter(event.target.value)} type="text" />
-        <Select value={gender} onChange={(event) => setGender(event.target.value)}>
-          <MenuItem value="Male">Male</MenuItem>
-          <MenuItem value="Female">Female</MenuItem>
-          <MenuItem value="">All</MenuItem>
-          <MenuItem value="-">Genderless</MenuItem>
-        </Select>
-      </form>
+
+      <div className="searchContainer">
+        <TextField
+          className="textField"
+          onClick={() => setFilter('')}
+          onChange={(event) => setFilter(event.target.value)}
+          variant="filled"
+          value={filter}
+          label="Supehero Name"
+        />
+        <div className="selectContainer">
+          <FormControl variant="filled" className="select">
+            <InputLabel>Gender</InputLabel>
+            <Select value={gender} onChange={(event) => setGender(event.target.value)}>
+              <MenuItem value="Male">Male</MenuItem>
+              <MenuItem value="Female">Female</MenuItem>
+              <MenuItem value="">All</MenuItem>
+              <MenuItem value="-">Genderless</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+      </div>
+
       <div className="supercard">
         {data && <SuperCard data={data} />}
       </div>
     </div>
+
   );
 }
 

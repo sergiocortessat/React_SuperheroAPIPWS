@@ -39,7 +39,7 @@ function App() {
           onChange={(event) => setFilter(event.target.value)}
           variant="filled"
           value={filter}
-          label="Supehero Name"
+          label="Supehero Name: "
         />
         <div className="selectContainer">
           <FormControl variant="filled" className="select">

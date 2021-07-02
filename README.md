@@ -1,5 +1,10 @@
-# Rick & Morty Api
 
+
+                                            #Super Hero Api Feeder
+
+<p align="center">
+  <img height="auto" src="customlogo.png">
+</p>
 
 ## Table of Contents
 
@@ -22,20 +27,20 @@
 ![Sass](https://img.shields.io/badge/Sass-092E20?style=for-the-badge&logo=sass&logoColor=white) <br/>
 
 ## Screenshot
-
+<br />
 <p align="center">
   <img height="auto" src="Screenshot.png">
 </p>
 
 ### Built With
 
-* [JAVASCRIPT] [REACT] [SASS] [API]
+* [JAVASCRIPT] [REACT] [SUPERHERO API] [API]
 
 <br />
 
 ## Live Version
 
-* [Live Demo](https://sergiocortessat.github.io/React_Rick-MortyAPI/) 
+* [Live Demo](https://sergiocortessat.github.io/React_SuperheroAPIPWS/) 
 
 <!-- ABOUT THE PROJECT   -->
 

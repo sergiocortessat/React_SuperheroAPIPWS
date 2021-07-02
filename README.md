@@ -1,6 +1,4 @@
-
-
-                                            #Super Hero Api Feeder
+#Super Hero Api Feeder
 
 <p align="center">
   <img height="auto" src="customlogo.png">

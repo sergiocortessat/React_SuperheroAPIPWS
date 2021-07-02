@@ -9,7 +9,7 @@
 }
 
 .searchContainer > div > label {
-  color: white !important;
+  color: white;
   font-family: "Marvel", sans-serif !important;
 }
 
@@ -22,13 +22,13 @@
   width: 30%;
   font-weight: 500;
   margin: 0 2% !important;
-  background-color: rgba(0, 0, 0, 0.75);
-  color: white !important;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
 }
 
 .select {
   width: 205px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .MuiInputLabel-filled {

@@ -34,8 +34,8 @@ The super hero api allows the user to see 5 random villains or heroes from diffe
 #
 <br />
 
-![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
 ![React](https://img.shields.io/badge/React-092E20?style=for-the-badge&logo=react&logoColor=white) <br/>
+![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
 ![PWS](https://img.shields.io/badge/PWS-092E20?style=for-the-badge&logo=pws&logoColor=white) <br/>
 
 ## Screenshot

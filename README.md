@@ -13,6 +13,11 @@ The super hero api allows the user to see 5 random villains or heroes from diffe
 
 <br />
 
+
+## Live Version
+
+* [Live Demo](https://sergiocortessat.github.io/React_SuperheroAPIPWS/) 
+
 ## Table of Contents
 
 <br />
@@ -43,11 +48,6 @@ The super hero api allows the user to see 5 random villains or heroes from diffe
 
 * [JAVASCRIPT] [REACT] [SUPERHERO API] [API]
 
-<br />
-
-## Live Version
-
-* [Live Demo](https://sergiocortessat.github.io/React_SuperheroAPIPWS/) 
 
 <!-- ABOUT THE PROJECT   -->
 

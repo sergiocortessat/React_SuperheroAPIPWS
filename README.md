@@ -1,8 +1,17 @@
-#Super Hero Api Feeder
+## Super Hero Api Feeder
 
 <p align="center">
   <img height="auto" src="customlogo.png">
 </p>
+
+
+<br />
+
+## About The Project
+
+The super hero api allows the user to see 5 random villains or heroes from different publishers, as well the user can search by hero and filter by gender.
+
+<br />
 
 ## Table of Contents
 
@@ -22,7 +31,7 @@
 
 ![Javascript](https://img.shields.io/badge/Javascript-3776AB?style=for-the-badge&logo=javascript&logoColor=white) <br/>
 ![React](https://img.shields.io/badge/React-092E20?style=for-the-badge&logo=react&logoColor=white) <br/>
-![Sass](https://img.shields.io/badge/Sass-092E20?style=for-the-badge&logo=sass&logoColor=white) <br/>
+![PWS](https://img.shields.io/badge/PWS-092E20?style=for-the-badge&logo=pws&logoColor=white) <br/>
 
 ## Screenshot
 <br />
@@ -44,10 +53,6 @@
 
 <br />
 
-## About The Project
-
-<br />
-
 
 ## Contributing
 
@@ -63,20 +68,19 @@ Terminal or similar to execute the program.
 
 ## Clone project
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone ```https://github.com/sergiocortessat/React_Rick-MortyAPI/``` using your terminal or command line.
-- Change to the project directory by entering: ```cd React_Rick-MortyAPI``` in the terminal.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/React_SuperheroAPIPWS``` using your terminal or command line.
+- Change to the project directory by entering: ```cd React_SuperheroAPIPWS``` in the terminal.
 - Enter the command npm i
 - Enter the project folder and run locally by using npm start.
 - If the project cant be build, please run npx webpack.
 
 ## Command line steps
 ```
-- $ git clone `$ git clone https://github.com/sergiocortessat/React_Rick-MortyAPI
+- $ git clone `$ git clone https://github.com/sergiocortessat/React_SuperheroAPIPWS
 - $ git checkout develop
-- $ cd JSCapstone-PlatformGame
+- $ cd React_SuperheroAPIPWS
 - $ npm i
 - $ npm start
-- ##(If project doesn't build, please run): $ npx webpack
 ```
 
 
@@ -93,6 +97,7 @@ Terminal or similar to execute the program.
 ## Acknowledgements
 
 * [Microverse](https://www.microverse.org/)
+* [Superheroapi](https://superheroapi.com/index.html)
 
 ## 📝 License
 

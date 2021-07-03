@@ -9,7 +9,6 @@ import fetchHeroes from './ApiFetch';
 import CircularUnderLoad from './Components/Loading';
 import './Components/supercard.css';
 import './searchbar.css';
-// import Pow from './pow.jpg';
 
 function App() {
   const [data, setData] = useState([]);
@@ -74,6 +73,15 @@ function App() {
 
       <div className="supercard">
         {data && <SuperCard data={data} />}
+      </div>
+      <div className="reload-button mt-3">
+        <a
+          href="button"
+          onClick={handleButton}
+          className="kapow"
+        >
+          <img alt="Pow" src="https://kapownoodlebar.com/wp-content/uploads/2017/05/kapow-logo.png" className="kapow-image" />
+        </a>
       </div>
     </div>
 

@@ -9,18 +9,25 @@ import fetchHeroes from './ApiFetch';
 import CircularUnderLoad from './Components/Loading';
 import './Components/supercard.css';
 import './searchbar.css';
+// import Pow from './pow.jpg';
 
 function App() {
   const [data, setData] = useState([]);
   const [gender, setGender] = useState('');
   const [filter, setFilter] = useState('');
+  const [reload, setReload] = useState(false);
   useEffect(() => {
     const fetchingData = async () => {
       setData(await fetchHeroes(filter, gender));
     };
 
     fetchingData();
-  }, [filter, gender]);
+  }, [filter, gender, reload]);
+
+  const handleButton = (event) => {
+    event.preventDefault();
+    setReload(!reload);
+  };
 
   if (data.length === 0 && !filter) {
     return (
@@ -52,6 +59,17 @@ function App() {
             </Select>
           </FormControl>
         </div>
+      </div>
+
+      <div className="reload-button">
+        <span className="load">Click below to see more</span>
+        <a
+          href="button"
+          onClick={handleButton}
+          className="kapow"
+        >
+          <img alt="Pow" src="https://kapownoodlebar.com/wp-content/uploads/2017/05/kapow-logo.png" className="kapow-image" />
+        </a>
       </div>
 
       <div className="supercard">

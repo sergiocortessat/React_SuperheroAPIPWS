@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Permanent+Marker&display=swap");
 
+/* search container */
 .searchContainer {
   display: flex;
   margin-bottom: 4%;
@@ -10,12 +12,12 @@
 
 .searchContainer > div > label {
   color: white;
-  font-family: "Marvel", sans-serif !important;
+  font-family: "Orbitron", sans-serif !important;
 }
 
 .MuiInputBase-input {
   color: white !important;
-  font-family: "Marvel", sans-serif !important;
+  font-family: "Orbitron", sans-serif !important;
 }
 
 .textField {
@@ -26,6 +28,8 @@
   color: white;
 }
 
+/* select filters */
+
 .select {
   width: 205px;
   background-color: rgba(0, 0, 0, 0.95);
@@ -33,7 +37,7 @@
 
 .MuiInputLabel-filled {
   color: white !important;
-  font-family: "Marvel", sans-serif !important;
+  font-family: "Orbitron", sans-serif !important;
 }
 
 .MuiMenu-paper {
@@ -45,7 +49,24 @@
 }
 
 .MuiMenu-paper > ul > li {
-  font-family: "Marvel", sans-serif !important;
+  font-family: "Orbitron", sans-serif !important;
+}
+
+/* Kapow image manipulation */
+
+.kapow-image {
+  max-height: 20vh;
+}
+
+.load {
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #ae25c0;
+  padding: 1rem;
+  font: 60px "permanent marker";
+  text-shadow: 6px 6px 6px #000;
 }
 
 @media only screen and (max-width: 1024px) {

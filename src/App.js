@@ -62,7 +62,7 @@ function App() {
       </div>
 
       <div className="reload-button">
-        <span className="load">Click below to see more</span>
+        <span className="load">Click Kapow! to load 5 more</span>
         <a
           href="button"
           onClick={handleButton}

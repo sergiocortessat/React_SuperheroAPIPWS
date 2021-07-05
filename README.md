@@ -9,7 +9,7 @@
 
 ## About The Project
 
-The super hero api allows the user to see 5 random villains or heroes from different publishers, as well the user can search by hero and filter by gender.
+The super hero api allows users to see 5 random villains or heroes from different publishers, as well the user can search by hero and filter by gender.
 
 ## Live Version
 

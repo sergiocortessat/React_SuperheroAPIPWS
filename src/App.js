@@ -16,11 +16,11 @@ function App() {
   const [filter, setFilter] = useState('');
   const [reload, setReload] = useState(false);
   useEffect(() => {
-    const fetchingData = async () => {
-      setData(await fetchHeroes(filter, gender));
-    };
+    // const fetchingData = async () => {
+    //   setData(await fetchHeroes(filter, gender));
+    // };
 
-    fetchingData();
+    fetchHeroes(filter, gender).then((result) => setData(result));
   }, [filter, gender, reload]);
 
   const handleButton = (event) => {

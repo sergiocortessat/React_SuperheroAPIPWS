@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/React_SuperheroAPIPWS/static/css/main.33f1879f.chunk.css",
-    "main.js": "/React_SuperheroAPIPWS/static/js/main.2ae74732.chunk.js",
-    "main.js.map": "/React_SuperheroAPIPWS/static/js/main.2ae74732.chunk.js.map",
+    "main.js": "/React_SuperheroAPIPWS/static/js/main.9a7ba9af.chunk.js",
+    "main.js.map": "/React_SuperheroAPIPWS/static/js/main.9a7ba9af.chunk.js.map",
     "runtime-main.js": "/React_SuperheroAPIPWS/static/js/runtime-main.8cb357bb.js",
     "runtime-main.js.map": "/React_SuperheroAPIPWS/static/js/runtime-main.8cb357bb.js.map",
-    "static/js/2.1fdcf05f.chunk.js": "/React_SuperheroAPIPWS/static/js/2.1fdcf05f.chunk.js",
-    "static/js/2.1fdcf05f.chunk.js.map": "/React_SuperheroAPIPWS/static/js/2.1fdcf05f.chunk.js.map",
+    "static/js/2.be162b66.chunk.js": "/React_SuperheroAPIPWS/static/js/2.be162b66.chunk.js",
+    "static/js/2.be162b66.chunk.js.map": "/React_SuperheroAPIPWS/static/js/2.be162b66.chunk.js.map",
     "static/js/3.19e0c010.chunk.js": "/React_SuperheroAPIPWS/static/js/3.19e0c010.chunk.js",
     "static/js/3.19e0c010.chunk.js.map": "/React_SuperheroAPIPWS/static/js/3.19e0c010.chunk.js.map",
     "index.html": "/React_SuperheroAPIPWS/index.html",
     "service-worker.js": "/React_SuperheroAPIPWS/service-worker.js",
     "service-worker.js.map": "/React_SuperheroAPIPWS/service-worker.js.map",
     "static/css/main.33f1879f.chunk.css.map": "/React_SuperheroAPIPWS/static/css/main.33f1879f.chunk.css.map",
-    "static/js/2.1fdcf05f.chunk.js.LICENSE.txt": "/React_SuperheroAPIPWS/static/js/2.1fdcf05f.chunk.js.LICENSE.txt"
+    "static/js/2.be162b66.chunk.js.LICENSE.txt": "/React_SuperheroAPIPWS/static/js/2.be162b66.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8cb357bb.js",
-    "static/js/2.1fdcf05f.chunk.js",
+    "static/js/2.be162b66.chunk.js",
     "static/css/main.33f1879f.chunk.css",
-    "static/js/main.2ae74732.chunk.js"
+    "static/js/main.9a7ba9af.chunk.js"
   ]
 }
